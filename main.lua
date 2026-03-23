@@ -18,6 +18,7 @@ local StoredAnimaCounter = LibStub("AceAddon-3.0"):NewAddon(addonName, "AceBucke
 
 local _G = _G
 local BreakUpLargeNumbers = BreakUpLargeNumbers
+local NUM_BANKBAGSLOTS = NUM_BANKBAGSLOTS or 7
 local AceDB = LibStub("AceDB-3.0")
 local AceConfig = LibStub("AceConfig-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
@@ -131,7 +132,9 @@ function StoredAnimaCounter:SetUpHooks()
             return
         end
 
-        -- Guard against Secret Value taint introduced in Midnight 12.0
+        -- Guard against tooltips that don't support GetItem (e.g. ShoppingTooltip)
+        -- and Secret Value taint introduced in Midnight 12.0
+        if not tooltip.GetItem then return end
         local ok, _, link = pcall(function() return tooltip:GetItem() end)
         if not ok or link == nil then return end
 
