@@ -18,7 +18,10 @@ local StoredAnimaCounter = LibStub("AceAddon-3.0"):NewAddon(addonName, "AceBucke
 
 local _G = _G
 local BreakUpLargeNumbers = BreakUpLargeNumbers
-local NUM_BANKBAGSLOTS = NUM_BANKBAGSLOTS or 7
+local NUM_BANKBAGSLOTS  = NUM_BANKBAGSLOTS  or 7
+local NUM_BAG_SLOTS     = NUM_BAG_SLOTS     or 4
+local BACKPACK_CONTAINER = BACKPACK_CONTAINER or 0
+local BANK_CONTAINER    = BANK_CONTAINER    or -1
 local AceDB = LibStub("AceDB-3.0")
 local AceConfig = LibStub("AceConfig-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")

@@ -1,5 +1,9 @@
 # StoredAnimaCounter
 
+## [2.0.1](https://github.com/RaithZ/StoredAnimaCounter/tree/2.0.1) (2026-03-23)
+
+- Added fallbacks for container globals removed in 12.0: NUM_BAG_SLOTS, NUM_BANKBAGSLOTS, BACKPACK_CONTAINER, BANK_CONTAINER
+
 ## [2.0.0](https://github.com/RaithZ/StoredAnimaCounter/tree/2.0.0) (2026-03-23)
 
 Forked from Falx/StoredAnimaCounter 1.7.3. Versioning restarted at 2.0.0 to avoid conflicts with the original author's release history.

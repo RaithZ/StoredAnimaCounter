@@ -1,7 +1,7 @@
 ## Interface: 120000,120001
 ## Title: StoredAnimaCounter
 ## Author: Falx
-## Version: 2.0.0
+## Version: 2.0.1
 ## Notes: Counts stored anima in your bags
 ## SavedVariables: StoredAnimaCounterDB
 ## X-Category: Bags & Inventory
