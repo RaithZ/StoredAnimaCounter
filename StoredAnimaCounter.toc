@@ -1,7 +1,7 @@
-## Interface: 120007,120001,120005
+## Interface: 120100,120007,120001,120005
 ## Title: StoredAnimaCounter
 ## Author: Falx
-## Version: 2.0.3
+## Version: 2.0.4
 ## Notes: Counts stored anima in your bags
 ## SavedVariables: StoredAnimaCounterDB
 ## X-Category: Bags & Inventory
